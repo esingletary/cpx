@@ -1,20 +1,18 @@
-# cpx
+# @mvnu/cpx
 
-[![npm version](https://img.shields.io/npm/v/cpx.svg)](https://www.npmjs.com/package/cpx)
-[![Downloads/month](https://img.shields.io/npm/dm/cpx.svg)](http://www.npmtrends.com/cpx)
-[![Build Status](https://travis-ci.org/mysticatea/cpx.svg?branch=master)](https://travis-ci.org/mysticatea/cpx)
-[![codecov](https://codecov.io/gh/mysticatea/cpx/branch/master/graph/badge.svg)](https://codecov.io/gh/mysticatea/cpx)
-[![Dependency Status](https://david-dm.org/mysticatea/cpx.svg)](https://david-dm.org/mysticatea/cpx)
+[![npm version](https://img.shields.io/npm/v/cpx.svg)](https://www.npmjs.com/package/@mvnu/cpx)
 
 Copy file globs, watching for changes.
 
 This module provides a CLI tool like `cp`, but with watching.
 
+This is a fork of `cpx` because the author hasn't updated the package to fix dependency vulnerabilities.
+
 
 ## Installation
 
 ```
-npm install cpx
+npm install @mvnu/cpx
 ```
 
 - Requires Node.js `>=6.5`.
